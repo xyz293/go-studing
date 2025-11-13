@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	r := gin.Default()
 	router.UserRouter(r)
 	router.ClassRouter(r)
